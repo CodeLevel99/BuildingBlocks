@@ -1,11 +1,10 @@
 def caesar_cipher (phrase, shift)
 
 	cipher = phrase.split("")
-
 	shift = shift % 26
 
 	cipher.each do |character|
-		if character =~ (/[A-zA-Z]/)
+		if character =~ (/[a-zA-Z]/)
 			shift.times do
 				character.next! 
 			end
