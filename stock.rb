@@ -1,5 +1,4 @@
 def stock_picker (prices)
-
 	buy_price = 0
 	sell_price = 0
 	profit = 0
